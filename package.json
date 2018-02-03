@@ -1,0 +1,32 @@
+{ "name": "http-connect-proxy-pmb",
+  "version": "1.0.0",
+  "description": "A simple HTTP CONNECT proxy.",
+  "keywords": [ "http", "connect", "proxy" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/http-connect-proxy-pmb-node/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/http-connect-proxy-pmb-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/http-connect-proxy-pmb-node/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "ISC",
+
+  "main": "hcp.js",
+  "scripts": { "test": "nodejs test/all.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {
+    "carrier": "^0.1.13",
+    "maxuniqid": "^0.1.0"
+  },
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
